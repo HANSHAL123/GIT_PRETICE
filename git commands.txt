@@ -17,5 +17,3 @@ NOTED:- """--global""" function is use for change email in all repo.
 5) publish your file :- git commit -m "message"
 
 6)remove git repo:- rm -rf git
-
-7)
