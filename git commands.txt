@@ -28,3 +28,4 @@ NOTED:- """--global""" function is use for change email in all repo.
 
 11) save changes without stage area :- git commit -a -m "[{(message]})"
 
+12) remove file/folder using git command :- git rm [{(filename.filetype)}]
