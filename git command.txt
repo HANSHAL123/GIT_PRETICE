@@ -1,0 +1,17 @@
+git commands 
+
+1) change you name :- git config --global user.name "your_name"
+
+NOTED:- """--global""" function is use for change name in all repo. 
+        without """--global""" your changes is change only that repo.
+
+2) change you email :- git config --global user.email "your_email"
+
+NOTED:- """--global""" function is use for change email in all repo. 
+        without """--global""" your changes is change only that repo.
+
+3) see you software status :- git status
+
+4) add your file to pending area :- git add .
+
+5) publish your file :- git commit -m "message"
