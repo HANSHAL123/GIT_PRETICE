@@ -21,3 +21,5 @@ NOTED:- """--global""" function is use for change email in all repo.
 7) push code to git:- git push -u origin master
 
 8) clone git repo. :- git clone [{(url)}]
+
+9) make git repo. :- git init
