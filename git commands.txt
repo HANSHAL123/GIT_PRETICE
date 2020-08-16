@@ -14,7 +14,7 @@ NOTED:- """--global""" function is use for change email in all repo.
 
 4) add your file to pending area :- git add .
 
-5) publish your file :- git commit -m "message"
+5) publish your file :- git commit -m "[{(message]})"
 
 6)remove git repo. :- rm -rf git
 
@@ -23,3 +23,8 @@ NOTED:- """--global""" function is use for change email in all repo.
 8) clone git repo. :- git clone [{(url)}]
 
 9) make git repo. :- git init
+
+10) see changes between files/folder :- git diff or git diff --staged
+
+11) save changes without stage area :- git commit -a -m "[{(message]})"
+
