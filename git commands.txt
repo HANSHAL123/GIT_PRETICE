@@ -11,9 +11,11 @@ change you email :- git config --global user.email "your_email"
 
 see you software status :- git status
 
-add your file to pending area :- git add .
+add your file to stageing area :- git add .
 
-publish your file :- git commit -m "[{(message]})"
+remove your file to stageing area :- git restore --staged [{(file)}]
+
+publish your file :- git commit -m "[{(message)}]"
 
 remove git repo. :- rm -rf git
 
