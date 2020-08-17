@@ -42,3 +42,7 @@ see git commit histry with diff & short note :- git log --start
 see git commit histry in _________ :- git log --pretty=[{(choice)}]
 
 see git histry with [{(choice)}] time :- git log --sicne=2.[{(time)}]
+
+restore git file :- git checkout -- [{(file_name)}]
+
+restore all file from modified area :- git checkout -f
