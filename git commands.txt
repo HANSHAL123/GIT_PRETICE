@@ -1,33 +1,42 @@
 git commands 
 
-1) change you name :- git config --global user.name "your_name"
+change you name :- git config --global user.name "your_name"
 
-NOTED:- """--global""" function is use for change name in all repo. 
-        without """--global""" your changes is change only that repo.
+        NOTED:- """--global""" function is use for change name in all repo. 
+                without """--global""" your changes is change only that repo.
+change you email :- git config --global user.email "your_email"
 
-2) change you email :- git config --global user.email "your_email"
+        NOTED:- """--global""" function is use for change email in all repo. 
+                without """--global""" your changes is change only that repo.
 
-NOTED:- """--global""" function is use for change email in all repo. 
-        without """--global""" your changes is change only that repo.
+see you software status :- git status
 
-3) see you software status :- git status
+add your file to pending area :- git add .
 
-4) add your file to pending area :- git add .
+publish your file :- git commit -m "[{(message]})"
 
-5) publish your file :- git commit -m "[{(message]})"
+remove git repo. :- rm -rf git
 
-6)remove git repo. :- rm -rf git
+push code to git:- git push -u origin master
 
-7) push code to git:- git push -u origin master
+clone git repo. :- git clone [{(url)}] [{(name)}]
 
-8) clone git repo. :- git clone [{(url)}]
+make git repo. :- git init
 
-9) make git repo. :- git init
+see changes between files/folder :- git diff or git diff --staged
 
-10) see changes between files/folder :- git diff or git diff --staged
+save changes without stage area :- git commit -a -m "[{(message]})"
 
-11) save changes without stage area :- git commit -a -m "[{(message]})"
+remove file/folder using git command :- git rm [{(filename.filetype)}]
 
-12) remove file/folder using git command :- git rm [{(filename.filetype)}]
+rename file/folder using git command :- git mv [{(old file name)}] [{(new file name)}]
 
-13) rename file/folder using git command :- git mv [{(old file name)}] [{(new file name)}]
+see git commit histry :- git log
+
+see git commit histry with diff :- git log -p or git log -p -[{(n)}]
+
+see git commit histry with diff & short note :- git log --start
+
+see git commit histry in _________ :- git log --pretty=[{(choice)}]
+
+see git histry with [{(choice)}] time :- git log --sicne=2.[{(time)}]
